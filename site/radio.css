@@ -1,0 +1,128 @@
+:root {
+	--text-color: #F4F2C9;
+}
+body {
+  background:"../pictures/BG";
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-family: "Trebuchet MS";
+}
+body {margin:0;}
+
+nav {
+	display: flex;
+	flex-wrap: nowrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(38, 89, 153,1) ;
+  position: absolute;
+  top: 0;
+  width: 100%;
+z-index: 1;
+}
+
+li {
+position: relative;
+float: left;
+font-family: "Trebuchet MS";
+font-size: 15px;
+text-align: center;
+}
+
+li a {
+  display: flex;
+  color: #ddd;
+  justify-content: flex-end;
+  padding: 14px 70px;
+  text-decoration: none;
+  margin-left: 70px;
+}
+
+li b {
+  display: flex;
+  color: #ddd;
+  justify-content: flex-end;
+  padding: 14px 70px;
+  text-decoration: none;
+  margin-right: 150px;
+}
+
+li a:hover:not(.active) {
+  font-size: 17.5px;
+  color: var(--text-color);
+}
+
+.active1 {
+  color: var(--text-color);
+  font-size: 17px;
+}
+
+.container-fluid-r {
+padding-right: 10%;
+padding-left: 10%;
+margin-top: 10%;
+float: right;
+text-align: left;
+}
+
+.container-fluid-l {
+padding-right: 10%;
+padding-left: 10%;
+margin-top: 10%;
+float: left;
+text-align: right;
+}
+
+section {
+	
+}
+
+p {
+color : var(--text-color);
+font-size: 50%;
+}
+
+h1 {
+color: var(--text-color);
+font-size: 300%;
+}
+
+p-r {
+color: white;
+text-align: right;
+font-size: 50%;
+}
+
+h1-r {
+color: white;
+}
+
+
+.clearfix {
+}
+
+.parallax {
+  background-image: url("../pictures/ZcKK.gif");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 50%;
+}
+
+
+.img {
+margin-left: auto;
+margin-right: auto;
+height: 40%;
+width: 40%;
+display: block;
+padding-bottom: 10%;
+}
+
+.img2 {
+padding-bottom: 30px;
+}
