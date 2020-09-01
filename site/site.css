@@ -23,6 +23,11 @@ nav {
 z-index: 1;
 }
 
+@media only screen and (min-width: 600px) {
+  navbar {
+    padding: 20px 10px;
+	float: none;
+	}}
 li {
 position: relative;
 float: left;
