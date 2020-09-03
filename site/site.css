@@ -4,7 +4,7 @@
 
 
   body {
-	
+
 	background:"../pictures/BG";
 	background-color: white;
 	background-repeat: no-repeat;
@@ -13,10 +13,10 @@
 	body {margin:0;}
 	}
 
-	
+
 
   nav {
-	
+
 	display: flex;
 	flex-wrap: nowrap;
 	list-style-type: none;
@@ -27,115 +27,145 @@
 	top: 0;
 	width: 100%;
 	z-index: 1;
-	
+
 	}
 
-@media only screen and (min-width: 600px) {
-  navbar {
-	  
-	padding: 20px 10px;
-	float: none;
-  
+@media only screen and (max-width: 600px) {
+  nav {
+		flex-wrap: wrap;
+		position: relative;
+		padding: 20px 10px;
+		float: none;
 	}
+	.menu {
+		align-items: flex-start;
+		flex-wrap: nowrap;
+		background: none;
+}
+.logo {
+		order: 0;
+}
+.item {
+		order: 1;
+		position: relative;
+		display: block;
+		width: auto;
+}
+.button {
+		order: 2;
+}
+.submenu-active .submenu {
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 68px;
+		background: #111;
+}
+.toggle {
+		display: none;
+}
+.submenu-active {
+		border-radius: 0;
+}}
 
   li {
-	  
+
 	position: relative;
 	float: left;
 	font-family: "Trebuchet MS";
 	font-size: 15px;
 	text-align: center;
-  
+
 	}
 
  li a {
-	 
+
 	display: flex;
 	color: #ddd;
 	justify-content: flex-end;
 	padding: 14px 70px;
 	text-decoration: none;
 	margin-left: 70px;
-  
+
 	}
 
   li b {
-	  
+
 	display: flex;
 	color: #ddd;
 	justify-content: flex-end;
 	padding: 14px 70px;
 	text-decoration: none;
 	margin-right: 150px;
-  
+
 	}
 
  li a:hover:not(.active) {
-	 
+
 	 font-size: 17.5px;
 	color: var(--text-color);
-  
+
 	}
 
-	
+
   .active1 {
-	  
+
 	color: var(--text-color);
 	font-size: 17px;
 
 	}
 
   .container-fluid-r {
-	  
+
 	padding-right: 10%;
 	padding-left: 10%;
 	margin-top: 10%;
 	float: right;
 	text-align: left;
-  
+
 	}
 
   .container-fluid-l {
-	  
+
 	padding-right: 10%;
 	padding-left: 10%;
 	margin-top: 10%;
 	float: left;
 	text-align: right;
-  
+
 	}
 
 
   p {
 	color : var(--text-color);
 	font-size: 50%;
-  
+
 	}
 
   h1 {
 	color: var(--text-color);
 	font-size: 300%;
-  
+
 	}
 
   p-r {
 	color: white;
 	text-align: right;
 	font-size: 50%;
-  
+
 	}
 
-	
+
   h1-r {
 	color: white;
 	}
 
 
 	.clearfix {}
-	
+
 
 	.parallax {
-		
+
 		background-image: url("../pictures/ZcKK.gif");
 		height: 500px;
 		background-attachment: fixed;
@@ -155,7 +185,7 @@
 		padding-bottom: 10%;
 	}
 
-	
+
 	.img2 {
 		padding-bottom: 30px;
 	}
