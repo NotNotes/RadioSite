@@ -12,8 +12,11 @@ body {
 }
 
 nav {
-  background-image: url("MVH-S215BT.jpg") ;
-  padding: 10% 20%;
+  background: #222;
+  background-image: url("bg1l.jpg") ;
+  padding: 100px 20px;
+  background-position: center;
+  background-size: cover;
 }
 
 a {
