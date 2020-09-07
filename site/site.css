@@ -29,17 +29,16 @@ li {
 position: relative;
 float: left;
 font-family: "Trebuchet MS";
-font-size: 15px;
+font-size: 13px;
 text-align: center;
-margin: 0;
-padding: 0;
+display: inline;
 }
 
 li a {
   display: flex;
   color: #ddd;
   justify-content: flex-end;
-  padding: 14px 70px;
+  padding: 14px 60px;
   text-decoration: none;
   margin-left: 70px;
 }
@@ -58,13 +57,13 @@ li b {
 }
 
 li a:hover:not(.active) {
-  font-size: 17.5px;
+  font-size: 15.5px;
   color: white;
 }
 
 .active1 {
   color: white;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .container-fluid-r {
