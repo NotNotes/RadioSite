@@ -1,4 +1,10 @@
-/* Basic styling */
+
+
+/*          01/10/20
+
+      Begun working on basic css.
+
+*/
 
 * {
   box-sizing: border-box;
@@ -22,20 +28,11 @@ a {
 }
 
 
+/*          02/10/20
 
+      Begun working on more advanced css for the navbar.
 
-#btnControl {
-    display: none;
-}
-
-
-#btnControl:checked + label {
-    width: 70px;
-    height: 74px;
-    line-height: 74px;
-}
-
-
+*/
 
 
 /* The container <div> - needed to position the dropdown content */
@@ -67,11 +64,11 @@ a {
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #222;}
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+/* Show the dropdown menu on click */
+.dropdown:onclick .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #222;}
+.dropdown:onclick .dropbtn {background-color: #222;}
 
 .menu,
 .submenu {
