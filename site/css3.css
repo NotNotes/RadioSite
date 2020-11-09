@@ -1,4 +1,19 @@
 /* Basic styling */
+
+.home {
+  font-size: 30px;
+}
+
+.title1 {
+  font-size: 40px;
+}
+
+.maintext {
+  margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
 div {
   padding-left: 60px;
 }
