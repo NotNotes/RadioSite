@@ -21,8 +21,6 @@ p {
   font-family: sans-serif;
   font-size: 30px;
   font-weight: 250;
-  padding-top: 50px;
-  padding-left: 15%;
 }
 
 h1 {
@@ -418,7 +416,7 @@ img {vertical-align: middle;}
 .left-box {
   position: relative;
   width: 100%;
-  background-image: url("candletop.jpg");
+  background-image: url("./pictures/red.jpg");
 
   /* Set a specific height */
   min-height: 800px;
@@ -434,13 +432,25 @@ img {vertical-align: middle;}
   opacity: 100%;
 }
 
-img:hover {
-  opacity: 0;
-}
 .right-box {
   position: relative;
   width: 100%;
-  background-image: url("candlebot.jpg");
+  background-image: url("./pictures/blackc.jpg");
+
+  /* Set a specific height */
+  min-height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eboys {
+  position: relative;
+  width: 100%;
+  background-image: url("thboys.JPG");
 
   /* Set a specific height */
   min-height: 800px;
@@ -461,6 +471,54 @@ img:hover {
   background-color: #faf9f8;
 }
 
-.footer {
-  background-color: #323b40;
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+  padding-left: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 60%;
+}
+footer {
+  background-color: black;
+  display: block;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #faf9f8;
+  text-align: left;
+}
+
+
+
+
+td {
+  font-family: sans-serif;
+  padding-top: 15%;
+  padding-left: 30%;
+  padding-right: 20%;
+  padding-bottom: 15%;
+  font-size: 20px;
+}
+
+th {
+  padding-top: 15%;
+  padding-left: 20%;
+  padding-bottom: 15%;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+h3 {
+  text-align: justify;
+  font-size: 50px;
+  padding: 5%;
+}
+
+.table3 {
+  text-align: justify;
+  width: 100%;
 }
